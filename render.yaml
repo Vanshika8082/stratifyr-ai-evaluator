@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: stratifyr-backend
+    env: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false # User must set this in the Render dashboard
+
+  - type: web
+    name: stratifyr-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: stratifyr-backend
+          envVarKey: RENDER_EXTERNAL_URL

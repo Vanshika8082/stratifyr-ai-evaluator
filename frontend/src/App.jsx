@@ -36,7 +36,8 @@ function App() {
     setResult(null);
 
     try {
-      const response = await axios.post('http://localhost:8000/analyze-idea', {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+      const response = await axios.post(`${apiUrl}/analyze-idea`, {
         idea: idea
       });
       setResult(response.data);
