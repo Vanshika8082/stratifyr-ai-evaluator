@@ -10,7 +10,8 @@ services:
       - key: GROQ_API_KEY
         sync: false
 
-  - type: static # Corrected type for a free Static Site
+  - type: web
+    env: static
     name: stratifyr-frontend
     rootDir: frontend
     buildCommand: npm install && npm run build
