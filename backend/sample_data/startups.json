@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Uber for X",
+    "description": "On-demand services for various tasks.",
+    "success_factors": ["Strong network effects", "High frequency of use", "Clear value proposition for both sides"],
+    "failure_patterns": ["High customer acquisition cost", "Low retention rate", "Regulatory hurdles"],
+    "market_gaps": ["Niche local markets", "Specialized services with high trust requirements"]
+  },
+  {
+    "id": 2,
+    "name": "Airbnb for Y",
+    "description": "Peer-to-peer marketplace for renting assets.",
+    "success_factors": ["Underutilized expensive assets", "Trust and safety mechanisms", "Global reach"],
+    "failure_patterns": ["Insurance and liability issues", "Supply-demand imbalance", "Low margins"],
+    "market_gaps": ["B2B equipment rental", "Specialized event spaces"]
+  },
+  {
+    "id": 3,
+    "name": "Tinder for Z",
+    "description": "Matching platform based on mutual interest.",
+    "success_factors": ["Gamified experience", "Low barrier to entry", "Viral growth loops"],
+    "failure_patterns": ["The 'empty restaurant' problem (chicken and egg)", "Monetization difficulties", "User churn after successful match"],
+    "market_gaps": ["Professional networking specific to niches", "Co-founder matching"]
+  },
+  {
+    "id": 4,
+    "name": "SaaS for Small Clinics",
+    "description": "Practice management software tailored for small healthcare providers.",
+    "success_factors": ["High switching costs", "Compliance (HIPAA) as a feature", "Recurring revenue"],
+    "failure_patterns": ["Long sales cycles", "Integration with legacy systems", "Resistance to change"],
+    "market_gaps": ["AI-driven patient triage", "Automated billing reconciliation"]
+  },
+  {
+    "id": 5,
+    "name": "Meal Replacement Shakes",
+    "description": "Nutritionally complete meals in liquid form for busy professionals.",
+    "success_factors": ["Subscription model", "Strong brand community", "Convenience"],
+    "failure_patterns": ["Taste and texture issues", "High shipping costs", "Fad diet perception"],
+    "market_gaps": ["Personalized nutrition based on biometrics", "Sustainable/upcycled ingredients"]
+  },
+  {
+    "id": 6,
+    "name": "Niche Local Coffee Shop / Cafe",
+    "description": "A specialized local cafe targeting a specific demographic like teens, students, or remote workers.",
+    "success_factors": ["Prime location with high foot traffic", "Unique community atmosphere", "Loyalty programs and events"],
+    "failure_patterns": ["High rent and overhead costs", "Intense competition from major chains", "Low average order value"],
+    "market_gaps": ["Safe after-school hangouts for teens", "Late-night studying spots", "Specialty diet-focused menus"]
+  },
+  {
+    "id": 7,
+    "name": "Direct-to-Consumer (D2C) Brand",
+    "description": "An online retail or e-commerce brand selling products directly via social media.",
+    "success_factors": ["Strong aesthetic identity", "Viral influencer marketing", "High profit margins"],
+    "failure_patterns": ["Rising customer acquisition costs on social media", "Inventory management issues", "High return rates"],
+    "market_gaps": ["Sustainable and ethical sourcing", "Highly specialized niche sizing"]
+  }
+]
