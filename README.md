@@ -1,4 +1,4 @@
-# VentureRAG - Startup Idea Evaluation System
+# Stratifyr - Startup Idea Evaluation System
 
 A full-stack RAG (Retrieval-Augmented Generation) application to evaluate startup ideas using market data.
 
