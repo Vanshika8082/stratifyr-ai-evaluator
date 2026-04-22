@@ -2,16 +2,16 @@ services:
   - type: web
     name: stratifyr-backend
     env: python
+    plan: free # Force the free tier
     rootDir: backend
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: GROQ_API_KEY
-        sync: false # User must set this in the Render dashboard
+        sync: false
 
-  - type: web
+  - type: static # Corrected type for a free Static Site
     name: stratifyr-frontend
-    env: static
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
