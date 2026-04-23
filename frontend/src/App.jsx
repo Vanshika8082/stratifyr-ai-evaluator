@@ -118,13 +118,57 @@ function App() {
           )}
         </div>
 
-        {/* Loading State Skeleton */}
+        {/* Loading State Skeleton with Shimmer */}
         {loading && (
-          <div className="max-w-4xl mx-auto space-y-6 animate-pulse">
-            <div className="h-32 bg-surface rounded-xl border border-borderLight"></div>
+          <div className="max-w-5xl mx-auto space-y-8 animate-fade-in">
+            {/* Pulsing Status indicator */}
+            <div className="flex justify-center mb-8">
+              <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-surface border border-primary/20 shadow-[0_0_20px_rgba(59,130,246,0.15)]">
+                <Activity size={20} className="text-primary animate-pulse" />
+                <span className="text-sm font-semibold text-transparent bg-clip-text bg-gradient-to-r from-primary to-indigo-400">
+                  Cross-referencing market data & identifying patterns...
+                </span>
+              </div>
+            </div>
+
+            {/* Skeleton Layout matched to final results */}
+            <div className="card relative overflow-hidden h-40 border-primary/10">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent -translate-x-full animate-shimmer"></div>
+              <div className="space-y-4 opacity-40">
+                <div className="flex justify-between items-center mb-6">
+                  <div className="h-8 w-48 bg-slate-700 rounded-lg"></div>
+                  <div className="h-8 w-24 bg-slate-700 rounded-lg"></div>
+                </div>
+                <div className="h-4 w-3/4 bg-slate-700 rounded-md"></div>
+                <div className="h-4 w-1/2 bg-slate-700 rounded-md"></div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[1, 2, 3].map((i) => (
+                <div key={i} className="card relative overflow-hidden h-48 border-indigo-500/10">
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-indigo-500/5 to-transparent -translate-x-full animate-shimmer" style={{ animationDelay: `${i * 0.2}s` }}></div>
+                  <div className="space-y-4 opacity-40">
+                    <div className="h-6 w-32 bg-slate-700 rounded-lg mb-6"></div>
+                    <div className="h-4 w-full bg-slate-700 rounded-md"></div>
+                    <div className="h-4 w-5/6 bg-slate-700 rounded-md"></div>
+                    <div className="h-4 w-4/6 bg-slate-700 rounded-md"></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="h-48 bg-surface rounded-xl border border-borderLight"></div>
-              <div className="h-48 bg-surface rounded-xl border border-borderLight"></div>
+              {[1, 2].map((i) => (
+                <div key={`bottom-${i}`} className="card relative overflow-hidden h-48 border-purple-500/10">
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-purple-500/5 to-transparent -translate-x-full animate-shimmer" style={{ animationDelay: `${i * 0.3}s` }}></div>
+                  <div className="space-y-4 opacity-40">
+                    <div className="h-6 w-40 bg-slate-700 rounded-lg mb-6"></div>
+                    <div className="h-4 w-full bg-slate-700 rounded-md"></div>
+                    <div className="h-4 w-3/4 bg-slate-700 rounded-md"></div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         )}
