@@ -49,10 +49,6 @@ class RAGPipeline:
             if similarities[idx] > 0.0:
                 results.append(self.documents[idx])
                 
-        # Fallback to random or basic docs if no exact keyword match (TF-IDF limitation)
-        if not results and self.documents:
-             results = self.documents[:top_k]
-             
         return results
 
     def generate_evaluation(self, idea: str, retrieved_docs: list) -> dict:
@@ -62,12 +58,15 @@ class RAGPipeline:
         similar_startups = [{"name": doc["name"], "description": doc["description"]} for doc in retrieved_docs]
         
         # Aggregate raw context for the prompt
-        context_str = ""
-        for i, doc in enumerate(retrieved_docs):
-            context_str += f"\nStartup {i+1}: {doc['name']} - {doc['description']}\n"
-            context_str += f"Success Factors: {', '.join(doc.get('success_factors', []))}\n"
-            context_str += f"Failure Patterns: {', '.join(doc.get('failure_patterns', []))}\n"
-            context_str += f"Market Gaps: {', '.join(doc.get('market_gaps', []))}\n"
+        if retrieved_docs:
+            context_str = "Here is context from similar existing startups and market data to inform your evaluation:\n"
+            for i, doc in enumerate(retrieved_docs):
+                context_str += f"\nStartup {i+1}: {doc['name']} - {doc['description']}\n"
+                context_str += f"Success Factors: {', '.join(doc.get('success_factors', []))}\n"
+                context_str += f"Failure Patterns: {', '.join(doc.get('failure_patterns', []))}\n"
+                context_str += f"Market Gaps: {', '.join(doc.get('market_gaps', []))}\n"
+        else:
+            context_str = "Note: No direct competitors were found in the local database for this specific niche. Please rely on your extensive internal knowledge of the market, consumer behavior, and business fundamentals to evaluate this idea."
 
         prompt = f"""You are an elite startup analyst combining the thinking of a venture capitalist, McKinsey consultant, and experienced founder.
 
@@ -76,7 +75,6 @@ Your goal is NOT to be polite or generic. Your goal is to deliver sharp, insight
 Startup Idea:
 "{idea}"
 
-Here is context from similar existing startups and market data to inform your evaluation:
 {context_str}
 
 Analyze the idea with depth, specificity, and strong opinions.

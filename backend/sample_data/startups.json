@@ -54,5 +54,749 @@
     "success_factors": ["Strong aesthetic identity", "Viral influencer marketing", "High profit margins"],
     "failure_patterns": ["Rising customer acquisition costs on social media", "Inventory management issues", "High return rates"],
     "market_gaps": ["Sustainable and ethical sourcing", "Highly specialized niche sizing"]
+  },
+  {
+    "id": 8,
+    "name": "AI Content Assistant",
+    "description": "A generative AI platform for automated blog posts and marketing copy.",
+    "success_factors": ["Speed of production", "Integration with existing CMS", "Low cost per output"],
+    "failure_patterns": ["Hallucinations and factual errors", "Generic sounding content", "Search engine penalties"],
+    "market_gaps": ["Deeply technical niche writing", "Multi-modal content generation (image+text)"]
+  },
+  {
+    "id": 9,
+    "name": "Neobank for Freelancers",
+    "description": "Digital banking focused on tax withholding and expense management for the gig economy.",
+    "success_factors": ["Automatic tax savings", "Zero fees", "Instant invoicing"],
+    "failure_patterns": ["Low deposit volume per user", "High fraud risk", "Difficult customer support"],
+    "market_gaps": ["Integrated health insurance", "Micro-lending based on invoice history"]
+  },
+  {
+    "id": 10,
+    "name": "Smart Home Energy Monitor",
+    "description": "IoT device that tracks appliance-level energy consumption and suggests optimizations.",
+    "success_factors": ["Tangible cost savings", "Ease of installation", "ESG branding"],
+    "failure_patterns": ["High hardware costs", "Interoperability issues", "Long payback period"],
+    "market_gaps": ["Solar panel ROI tracking", "Utility company partnerships"]
+  },
+  {
+    "id": 11,
+    "name": "AI Video Editor",
+    "description": "Automated video clipping and subtitle generation for social media creators.",
+    "success_factors": ["Saves hours of manual work", "Platform-specific templates", "High viral potential"],
+    "failure_patterns": ["Loss of creative control", "Subscription fatigue", "Rendering latency"],
+    "market_gaps": ["Long-form to short-form auto-summarization", "AI-driven thumbnail generation"]
+  },
+  {
+    "id": 12,
+    "name": "B2B Cybersecurity Training",
+    "description": "Gamified platform for employees to learn how to identify phishing and social engineering.",
+    "success_factors": ["Regulatory compliance requirement", "Engaging content", "Risk reporting for HR"],
+    "failure_patterns": ["Perceived as a 'chore' by employees", "Content becomes outdated quickly", "Hard to measure ROI"],
+    "market_gaps": ["Simulated deepfake voice calls", "Personal device security training"]
+  },
+  {
+    "id": 13,
+    "name": "E-learning for Skilled Trades",
+    "description": "Virtual reality and video training for plumbers, electricians, and HVAC technicians.",
+    "success_factors": ["Addresses labor shortage", "Hands-on simulation", "Certification tracking"],
+    "failure_patterns": ["Resistance from traditional unions", "High VR equipment costs", "Need for physical testing"],
+    "market_gaps": ["Apprenticeship matching", "On-the-job AR assistance"]
+  },
+  {
+    "id": 14,
+    "name": "Vertical Farm for Urban Areas",
+    "description": "Hydroponic systems in repurposed shipping containers for hyper-local produce.",
+    "success_factors": ["Zero food miles", "Year-round production", "Premium pricing for freshness"],
+    "failure_patterns": ["High energy costs", "Scalability limitations", "Maintenance complexity"],
+    "market_gaps": ["Pharmaceutical grade crop growth", "Subscription-based home delivery"]
+  },
+  {
+    "id": 15,
+    "name": "Mental Health Platform for Gen Z",
+    "description": "Text-based therapy with a focus on affordability and peer-to-peer support groups.",
+    "success_factors": ["Anonymity", "Mobile-first experience", "Cultural relevance"],
+    "failure_patterns": ["Quality control of therapists", "Liability for crisis situations", "Low barrier to switching competitors"],
+    "market_gaps": ["Neurodivergent-specific care", "Career anxiety coaching"]
+  },
+  {
+    "id": 16,
+    "name": "Crypto Custody for Seniors",
+    "description": "Highly secure, easy-to-use digital asset storage with multi-sig for inheritance planning.",
+    "success_factors": ["Simplified UI", "Focus on safety over trading", "Trust building with family members"],
+    "failure_patterns": ["Complex onboarding", "Low adoption rate in target demographic", "Evolving regulations"],
+    "market_gaps": ["Estate planning integration", "Physical backup solutions"]
+  },
+  {
+    "id": 17,
+    "name": "Micro-SaaS for Shopify Apps",
+    "description": "Specialized tools like 'abandoned cart recovery' or 'social proof widgets' for e-commerce.",
+    "success_factors": ["Low development overhead", "Built-in distribution", "Clear ROI for merchants"],
+    "failure_patterns": ["Platform dependency risk", "Intense competition", "Limited feature set"],
+    "market_gaps": ["Cross-border tax automation", "AI personalized product bundles"]
+  },
+  {
+    "id": 18,
+    "name": "AI Code Reviewer",
+    "description": "Tool that automatically flags security vulnerabilities and style issues in pull requests.",
+    "success_factors": ["Reduces developer friction", "Consistent code quality", "Integrates with GitHub"],
+    "failure_patterns": ["High false positive rate", "Context blindness in complex logic", "Developer resentment"],
+    "market_gaps": ["Legacy code migration assistance", "Technical debt visualization"]
+  },
+  {
+    "id": 19,
+    "name": "Sustainable Packaging as a Service",
+    "description": "Reusable packaging for e-commerce brands with a return-and-wash logistics loop.",
+    "success_factors": ["Consumer demand for sustainability", "Reduces plastic waste", "Corporate ESG goals"],
+    "failure_patterns": ["Logistics complexity", "High per-unit cost", "Low return rate from customers"],
+    "market_gaps": ["Custom branded reusable boxes", "IoT tracked return bins"]
+  },
+  {
+    "id": 20,
+    "name": "Remote Work Compliance Tool",
+    "description": "Software for managing international tax, labor laws, and equipment for global teams.",
+    "success_factors": ["Complexity reduction for HR", "Prevents legal penalties", "Unified dashboard"],
+    "failure_patterns": ["Saturated market (Deel, Rippling)", "High data security requirements", "Vulnerability to policy changes"],
+    "market_gaps": ["Digital nomad visa assistance", "Remote culture building tools"]
+  },
+  {
+    "id": 21,
+    "name": "Personal CRM for Networking",
+    "description": "A tool to track interactions with professional contacts, reminding users to follow up.",
+    "success_factors": ["Improves relationship ROI", "Automation of contact data", "Privacy focus"],
+    "failure_patterns": ["Data entry friction", "Low daily active usage", "Hard to monetize"],
+    "market_gaps": ["AI-generated 'reason to reach out'", "Event networking optimization"]
+  },
+  {
+    "id": 22,
+    "name": "EdTech for Corporate Upskilling",
+    "description": "Platform for teaching non-technical employees how to use AI and data tools.",
+    "success_factors": ["High L&D budgets", "Direct impact on productivity", "Certification-based"],
+    "failure_patterns": ["Low completion rates", "Generic content vs company specific", "Difficult to prove ROI"],
+    "market_gaps": ["AI-readiness assessment", "Personalized learning paths"]
+  },
+  {
+    "id": 23,
+    "name": "Fractional CFO for Startups",
+    "description": "Platform matching early-stage startups with experienced part-time financial executives.",
+    "success_factors": ["Cost-effective expertise", "Scalable service", "Focus on fundraising support"],
+    "failure_patterns": ["Service quality inconsistency", "Difficult to scale beyond the founder's time", "High churn after fundraising"],
+    "market_gaps": ["Automated financial modeling software", "Integrated bookkeeping services"]
+  },
+  {
+    "id": 24,
+    "name": "Pet Health Monitoring Wearable",
+    "description": "Collar that tracks activity, sleep, and early signs of illness in dogs and cats.",
+    "success_factors": ["Pet humanization trend", "Early detection saves vet costs", "Subscription revenue"],
+    "failure_patterns": ["Short battery life", "Data accuracy issues", "High hardware price"],
+    "market_gaps": ["Insurance discount integration", "GPS tracking for indoor/outdoor use"]
+  },
+  {
+    "id": 25,
+    "name": "AI Sales Outreach Platform",
+    "description": "Automated hyper-personalized LinkedIn and email messaging for SDRs.",
+    "success_factors": ["High volume with low effort", "Improved response rates", "CRM integration"],
+    "failure_patterns": ["Account banning from platforms", "Perceived as spam", "Poor lead quality"],
+    "market_gaps": ["Deeply personalized video outreach", "Intent-based lead scoring"]
+  },
+  {
+    "id": 26,
+    "name": "Subscription for High-End Coffee",
+    "description": "Monthly delivery of curated, ethically sourced coffee beans from world-renowned roasters.",
+    "success_factors": ["Recurring revenue model", "Strong brand story", "Niche community focus"],
+    "failure_patterns": ["High shipping costs", "Customer preference volatility", "Intense competition"],
+    "market_gaps": ["Personalized tasting notes", "Home brewing equipment bundles"]
+  },
+  {
+    "id": 27,
+    "name": "Virtual Event Platform for Small Groups",
+    "description": "Specialized platform for hosting interactive workshops and small-scale networking events.",
+    "success_factors": ["Interactive features", "Ease of setup", "Niche focus"],
+    "failure_patterns": ["Competition from Zoom and Teams", "Low barrier to entry", "Limited scalability"],
+    "market_gaps": ["Specialized event themes", "Integrated event management tools"]
+  },
+  {
+    "id": 28,
+    "name": "Sustainable Fashion Marketplace",
+    "description": "Online platform for buying and selling second-hand and ethically made clothing.",
+    "success_factors": ["Consumer demand for sustainability", "Curated selection", "Community engagement"],
+    "failure_patterns": ["High logistical costs", "Quality control issues", "Low margins"],
+    "market_gaps": ["Personalized styling services", "In-person pop-up events"]
+  },
+  {
+    "id": 29,
+    "name": "AI-Driven Language Learning",
+    "description": "Personalized language learning app that uses AI to adapt to the user's progress and interests.",
+    "success_factors": ["Adaptive learning path", "Gamified experience", "High user engagement"],
+    "failure_patterns": ["Competition from established apps", "Content development costs", "User churn"],
+    "market_gaps": ["Specialized language tracks", "Immersive virtual reality learning"]
+  },
+  {
+    "id": 30,
+    "name": "Remote Work Ergonomics Consulting",
+    "description": "Service providing personalized ergonomic assessments and equipment recommendations for remote workers.",
+    "success_factors": ["Focus on employee wellness", "Tangible benefits", "Growing remote work trend"],
+    "failure_patterns": ["Hard to scale", "Limited market size", "Dependence on employer budgets"],
+    "market_gaps": ["Corporate wellness programs", "Home office design services"]
+  },
+  {
+    "id": 31,
+    "name": "Direct-to-Consumer (D2C) Organic Groceries",
+    "description": "Online grocery service delivering fresh, organic produce directly from local farms.",
+    "success_factors": ["Freshness and quality", "Sustainable sourcing", "Convenience"],
+    "failure_patterns": ["High logistics and perishability costs", "Intense competition", "Supply chain challenges"],
+    "market_gaps": ["Subscription-based meal kits", "Local farm-to-table events"]
+  },
+  {
+    "id": 32,
+    "name": "AI-Powered Financial Planning",
+    "description": "App that uses AI to provide personalized financial advice and investment recommendations.",
+    "success_factors": ["Accessibility", "Data-driven insights", "Lower cost than traditional advisors"],
+    "failure_patterns": ["Trust and security concerns", "Regulatory challenges", "Competition from fintech giants"],
+    "market_gaps": ["Niche financial planning for specific demographics", "Integration with banking and investment platforms"]
+  },
+  {
+    "id": 33,
+    "name": "Virtual Assistant for Solo Entrepreneurs",
+    "description": "Platform matching solo entrepreneurs with specialized virtual assistants for administrative and creative tasks.",
+    "success_factors": ["Cost-effective support", "Focus on core business activities", "Scalable service"],
+    "failure_patterns": ["Quality control issues", "High churn rate for both VAs and clients", "Difficult to manage remote teams"],
+    "market_gaps": ["Specialized VA training programs", "Integrated task management tools"]
+  },
+  {
+    "id": 34,
+    "name": "Sustainable Travel Agency",
+    "description": "Travel agency focused on providing eco-friendly and socially responsible travel experiences.",
+    "success_factors": ["Growing demand for sustainable travel", "Unique and authentic experiences", "Focus on impact"],
+    "failure_patterns": ["Higher costs for sustainable options", "Limited destination choices", "Difficult to measure impact"],
+    "market_gaps": ["Corporate sustainable travel programs", "Community-based tourism initiatives"]
+  },
+  {
+    "id": 35,
+    "name": "AI-Driven Healthcare Diagnostics",
+    "description": "Software that uses AI to analyze medical images and data for earlier and more accurate diagnosis.",
+    "success_factors": ["Improved patient outcomes", "Reduced healthcare costs", "Faster diagnosis"],
+    "failure_patterns": ["Regulatory hurdles", "Data privacy concerns", "Integration with healthcare systems"],
+    "market_gaps": ["Diagnostics for rare diseases", "Telehealth-integrated diagnostic tools"]
+  },
+  {
+    "id": 36,
+    "name": "Micro-Learning Platform for Professionals",
+    "description": "Short-form video and audio learning content for busy professionals to gain new skills quickly.",
+    "success_factors": ["Convenience and flexibility", "High engagement", "Focus on practical skills"],
+    "failure_patterns": ["Content quality consistency", "Difficulty in measuring learning outcomes", "Subscription fatigue"],
+    "market_gaps": ["Industry-specific micro-learning tracks", "AI-driven content recommendations"]
+  },
+  {
+    "id": 37,
+    "name": "Sustainable Urban Mobility Solution",
+    "description": "Platform for managing shared electric scooters, bikes, and other micro-mobility options in cities.",
+    "success_factors": ["Reduced urban congestion", "Eco-friendly alternative", "Integration with public transit"],
+    "failure_patterns": ["Regulatory challenges", "Maintenance and charging costs", "Intense competition"],
+    "market_gaps": ["Corporate micro-mobility programs", "Last-mile delivery integration"]
+  },
+  {
+    "id": 38,
+    "name": "AI-Powered Customer Support for Small Businesses",
+    "description": "Affordable chatbot and AI-driven support tools tailored for small and medium-sized enterprises.",
+    "success_factors": ["Cost savings", "24/7 availability", "Improved customer experience"],
+    "failure_patterns": ["Limited complexity of AI", "Customer frustration with bots", "Technical setup hurdles"],
+    "market_gaps": ["Industry-specific AI support templates", "Integrated CRM and helpdesk tools"]
+  },
+  {
+    "id": 39,
+    "name": "Online Community for Specialized Hobbies",
+    "description": "Platform for connecting individuals with highly specialized interests and hobbies.",
+    "success_factors": ["Strong community engagement", "Niche focus", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general social media"],
+    "market_gaps": ["Marketplace for hobby-specific items", "Virtual and in-person events for hobbyists"]
+  },
+  {
+    "id": 40,
+    "name": "Sustainable Home Goods Subscription",
+    "description": "Monthly delivery of eco-friendly and ethically sourced home goods like cleaning supplies and personal care items.",
+    "success_factors": ["Convenience and sustainability", "Strong brand community", "Recurring revenue"],
+    "failure_patterns": ["High shipping costs", "Product quality issues", "Intense competition from major brands"],
+    "market_gaps": ["Customized subscription boxes", "Recycling and composting programs"]
+  },
+  {
+    "id": 41,
+    "name": "AI-Driven Personalized Fitness",
+    "description": "Fitness app that uses AI to create personalized workout and nutrition plans based on user goals and data.",
+    "success_factors": ["Highly personalized experience", "Data-driven insights", "Improved fitness outcomes"],
+    "failure_patterns": ["User motivation and retention", "Data privacy concerns", "Competition from established fitness apps"],
+    "market_gaps": ["Wearable-integrated fitness tracking", "Virtual and in-person personal training"]
+  },
+  {
+    "id": 42,
+    "name": "Remote Team Building Platform",
+    "description": "Software for hosting virtual team-building activities and games for remote and hybrid teams.",
+    "success_factors": ["Improved employee engagement", "Focus on company culture", "Scalable for large teams"],
+    "failure_patterns": ["Zoom fatigue", "Difficult to measure impact", "Competition from simple communication tools"],
+    "market_gaps": ["Customized team-building experiences", "Integrated performance tracking tools"]
+  },
+  {
+    "id": 43,
+    "name": "Sustainable Event Management Platform",
+    "description": "Software for planning and managing eco-friendly and socially responsible events.",
+    "success_factors": ["Reduced environmental impact", "Focus on socially responsible practices", "Detailed impact reporting"],
+    "failure_patterns": ["Higher costs for sustainable options", "Complexity of management", "Resistance from traditional event planners"],
+    "market_gaps": ["Corporate sustainable event programs", "Community-based event initiatives"]
+  },
+  {
+    "id": 44,
+    "name": "AI-Powered Content Personalization for E-commerce",
+    "description": "Tools for e-commerce brands to use AI to personalize website content and marketing messages for each user.",
+    "success_factors": ["Improved conversion rates", "Enhanced customer experience", "Data-driven insights"],
+    "failure_patterns": ["Data privacy concerns", "Technical integration challenges", "Intense competition"],
+    "market_gaps": ["Industry-specific personalization templates", "Integrated CRM and marketing automation tools"]
+  },
+  {
+    "id": 45,
+    "name": "Online Marketplace for Local Services",
+    "description": "Platform for connecting individuals with local service providers like cleaners, handymen, and pet sitters.",
+    "success_factors": ["Convenience and accessibility", "Trust and safety mechanisms", "Local focus"],
+    "failure_patterns": ["High customer acquisition costs", "Intense competition", "Difficult to maintain service quality"],
+    "market_gaps": ["Specialized service niches", "Integrated booking and payment tools"]
+  },
+  {
+    "id": 46,
+    "name": "Sustainable Beauty Brand",
+    "description": "Beauty brand focused on providing eco-friendly and ethically sourced cosmetic and personal care products.",
+    "success_factors": ["Growing demand for sustainable beauty", "Strong brand story", "Focus on clean ingredients"],
+    "failure_patterns": ["Higher costs for sustainable options", "Intense competition from established brands", "Marketing and branding hurdles"],
+    "market_gaps": ["Personalized beauty recommendations", "Recyclable and refillable packaging"]
+  },
+  {
+    "id": 47,
+    "name": "AI-Driven Recruiting for Specialized Tech",
+    "description": "Platform that uses AI to match specialized tech talent with relevant job opportunities.",
+    "success_factors": ["Improved candidate matching", "Reduced time-to-hire", "Focus on specialized skills"],
+    "failure_patterns": ["Bias in AI algorithms", "Data privacy concerns", "Competition from general job boards"],
+    "market_gaps": ["Recruiting for emerging tech niches", "Integrated candidate assessment tools"]
+  },
+  {
+    "id": 48,
+    "name": "Virtual Wellness Platform for Companies",
+    "description": "Platform for providing virtual wellness programs like meditation, yoga, and mental health support for employees.",
+    "success_factors": ["Improved employee wellness", "Focus on company culture", "Scalable for large teams"],
+    "failure_patterns": ["Low employee engagement", "Difficult to measure impact", "Competition from general wellness apps"],
+    "market_gaps": ["Customized wellness programs for different employee segments", "Integrated performance tracking tools"]
+  },
+  {
+    "id": 49,
+    "name": "Sustainable Home Design Service",
+    "description": "Service providing personalized and sustainable home design and renovation recommendations.",
+    "success_factors": ["Focus on eco-friendly and energy-efficient design", "Improved home value", "Growing demand for sustainable living"],
+    "failure_patterns": ["Higher costs for sustainable options", "Complexity of management", "Resistance from traditional designers"],
+    "market_gaps": ["Corporate sustainable housing programs", "Community-based sustainable living initiatives"]
+  },
+  {
+    "id": 50,
+    "name": "AI-Powered Market Research for Small Businesses",
+    "description": "Affordable AI-driven tools for small businesses to conduct market research and gain consumer insights.",
+    "success_factors": ["Cost savings", "Data-driven insights", "Improved business decision-making"],
+    "failure_patterns": ["Limited data sources", "Difficulty in interpreting AI insights", "Technical setup hurdles"],
+    "market_gaps": ["Industry-specific market research templates", "Integrated CRM and marketing automation tools"]
+  },
+  {
+    "id": 51,
+    "name": "Online Community for Sustainable Living",
+    "description": "Platform for connecting individuals interested in sustainable and eco-friendly lifestyles.",
+    "success_factors": ["Strong community engagement", "Focus on shared values", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general social media"],
+    "market_gaps": ["Marketplace for sustainable products", "Virtual and in-person events for sustainable living"]
+  },
+  {
+    "id": 52,
+    "name": "Sustainable Food Supply Chain Management",
+    "description": "Software for managing and optimizing eco-friendly and socially responsible food supply chains.",
+    "success_factors": ["Reduced environmental impact", "Improved transparency and traceability", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional food companies"],
+    "market_gaps": ["Corporate sustainable food programs", "Community-based food initiatives"]
+  },
+  {
+    "id": 53,
+    "name": "AI-Driven Customer Feedback Analysis",
+    "description": "Tools for businesses to use AI to analyze customer feedback from various sources and gain insights.",
+    "success_factors": ["Improved customer understanding", "Data-driven insights", "Faster response to customer needs"],
+    "failure_patterns": ["Data privacy concerns", "Technical integration challenges", "Difficulty in interpreting AI insights"],
+    "market_gaps": ["Industry-specific feedback analysis templates", "Integrated CRM and helpdesk tools"]
+  },
+  {
+    "id": 54,
+    "name": "Remote Education Platform for Special Needs",
+    "description": "Specialized platform for providing remote education and support for children with special needs.",
+    "success_factors": ["Improved accessibility and inclusivity", "Personalized learning experience", "Strong community support"],
+    "failure_patterns": ["High costs for specialized support", "Technological barriers for some families", "Difficulty in managing specialized needs remotely"],
+    "market_gaps": ["Specialized teacher training programs", "Integrated parent and student support tools"]
+  },
+  {
+    "id": 55,
+    "name": "Sustainable Packaging Marketplace",
+    "description": "Online platform for businesses to buy and sell eco-friendly and recyclable packaging materials.",
+    "success_factors": ["Growing demand for sustainable packaging", "Curated selection", "Improved supply chain transparency"],
+    "failure_patterns": ["High logistical costs", "Quality control issues", "Low margins"],
+    "market_gaps": ["Customized packaging design services", "Integrated recycling and composting programs"]
+  },
+  {
+    "id": 56,
+    "name": "AI-Powered Real Estate Analytics",
+    "description": "Software that uses AI to analyze real estate data and provide insights for investors and developers.",
+    "success_factors": ["Improved investment decisions", "Data-driven market insights", "Enhanced efficiency"],
+    "failure_patterns": ["Data quality issues", "Complexity of analysis", "Intense competition from established firms"],
+    "market_gaps": ["Niche real estate analytics for specific markets", "Integrated property management tools"]
+  },
+  {
+    "id": 57,
+    "name": "Virtual Music Education Platform",
+    "description": "Platform for providing virtual music lessons and interactive learning tools for students of all ages.",
+    "success_factors": ["Improved accessibility and flexibility", "Interactive learning experience", "Focus on practical skills"],
+    "failure_patterns": ["Content quality consistency", "Technological barriers for some students", "Difficulty in measuring learning outcomes"],
+    "market_gaps": ["Specialized music tracks for different genres", "Integrated student and teacher management tools"]
+  },
+  {
+    "id": 58,
+    "name": "Sustainable Travel Booking Platform",
+    "description": "Online platform for booking eco-friendly and socially responsible travel experiences.",
+    "success_factors": ["Reduced environmental impact", "Focus on socially responsible practices", "Detailed impact reporting"],
+    "failure_patterns": ["Higher costs for sustainable options", "Complexity of management", "Resistance from traditional travel agents"],
+    "market_gaps": ["Corporate sustainable travel programs", "Community-based travel initiatives"]
+  },
+  {
+    "id": 59,
+    "name": "AI-Powered Supply Chain Resilience Analysis",
+    "description": "Software that uses AI to analyze supply chain data and identify potential risks and vulnerabilities.",
+    "success_factors": ["Improved supply chain resilience", "Data-driven risk insights", "Enhanced decision-making"],
+    "failure_patterns": ["Data quality issues", "Complexity of analysis", "Intense competition from established firms"],
+    "market_gaps": ["Niche supply chain resilience analysis for specific industries", "Integrated supply chain management tools"]
+  },
+  {
+    "id": 60,
+    "name": "Online Marketplace for Specialized Crafts",
+    "description": "Platform for connecting individuals with creators of highly specialized and unique crafts.",
+    "success_factors": ["Strong community engagement", "Niche focus", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general marketplaces"],
+    "market_gaps": ["Marketplace for craft-specific materials", "Virtual and in-person workshops for creators"]
+  },
+  {
+    "id": 61,
+    "name": "Sustainable Home Maintenance Service",
+    "description": "Service providing eco-friendly and sustainable home maintenance and repair services.",
+    "success_factors": ["Reduced environmental impact", "Focus on sustainable practices", "Detailed impact reporting"],
+    "failure_patterns": ["Higher costs for sustainable options", "Complexity of management", "Resistance from traditional maintenance providers"],
+    "market_gaps": ["Corporate sustainable home programs", "Community-based home initiatives"]
+  },
+  {
+    "id": 62,
+    "name": "AI-Powered Personalized Mental Health Support",
+    "description": "App that uses AI to provide personalized mental health support and resources based on user needs and data.",
+    "success_factors": ["Improved mental health outcomes", "Data-driven insights", "Enhanced accessibility"],
+    "failure_patterns": ["Data privacy concerns", "Difficulty in interpreting AI insights", "Intense competition from established firms"],
+    "market_gaps": ["Niche mental health support for specific demographics", "Integrated therapist and patient management tools"]
+  },
+  {
+    "id": 63,
+    "name": "Sustainable Logistics Platform",
+    "description": "Platform for managing and optimizing eco-friendly and socially responsible logistics operations.",
+    "success_factors": ["Reduced environmental impact", "Improved transparency and traceability", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional logistics companies"],
+    "market_gaps": ["Corporate sustainable logistics programs", "Community-based logistics initiatives"]
+  },
+  {
+    "id": 64,
+    "name": "AI-Powered Energy Grid Optimization",
+    "description": "Software that uses AI to analyze energy grid data and optimize power distribution and efficiency.",
+    "success_factors": ["Reduced energy waste", "Improved grid stability", "Enhanced efficiency"],
+    "failure_patterns": ["Data quality issues", "Complexity of analysis", "Intense competition from established firms"],
+    "market_gaps": ["Niche energy grid optimization for specific regions", "Integrated energy management tools"]
+  },
+  {
+    "id": 65,
+    "name": "Online Community for Conscious Consumerism",
+    "description": "Platform for connecting individuals interested in ethical and sustainable consumption.",
+    "success_factors": ["Strong community engagement", "Focus on shared values", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general social media"],
+    "market_gaps": ["Marketplace for conscious products", "Virtual and in-person events for conscious consumers"]
+  },
+  {
+    "id": 66,
+    "name": "Sustainable Agriculture Technology",
+    "description": "Software and hardware for managing and optimizing eco-friendly and sustainable agricultural practices.",
+    "success_factors": ["Reduced environmental impact", "Improved crop yields", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional agricultural companies"],
+    "market_gaps": ["Corporate sustainable agriculture programs", "Community-based agriculture initiatives"]
+  },
+  {
+    "id": 67,
+    "name": "AI-Powered Customer Lifetime Value Analysis",
+    "description": "Tools for businesses to use AI to analyze customer data and predict lifetime value for each user.",
+    "success_factors": ["Improved marketing efficiency", "Data-driven customer insights", "Enhanced decision-making"],
+    "failure_patterns": ["Data privacy concerns", "Technical integration challenges", "Difficulty in interpreting AI insights"],
+    "market_gaps": ["Industry-specific customer value analysis templates", "Integrated CRM and marketing automation tools"]
+  },
+  {
+    "id": 68,
+    "name": "Virtual Fitness Community for Seniors",
+    "description": "Platform for providing virtual fitness classes and community support for seniors.",
+    "success_factors": ["Improved accessibility and inclusivity", "Strong community engagement", "Focus on senior wellness"],
+    "failure_patterns": ["Technological barriers for some seniors", "Difficulty in managing specialized needs remotely", "Low engagement"],
+    "market_gaps": ["Specialized fitness programs for different senior segments", "Integrated student and instructor management tools"]
+  },
+  {
+    "id": 69,
+    "name": "Sustainable Urban Planning Platform",
+    "description": "Software for planning and managing eco-friendly and sustainable urban development projects.",
+    "success_factors": ["Reduced environmental impact", "Improved urban resilience", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional urban planners"],
+    "market_gaps": ["Corporate sustainable development programs", "Community-based urban initiatives"]
+  },
+  {
+    "id": 70,
+    "name": "AI-Powered Environmental Monitoring",
+    "description": "Software that uses AI to analyze environmental data and identify potential threats and changes.",
+    "success_factors": ["Improved environmental protection", "Data-driven environmental insights", "Enhanced decision-making"],
+    "failure_patterns": ["Data quality issues", "Complexity of analysis", "Intense competition from established firms"],
+    "market_gaps": ["Niche environmental monitoring for specific regions", "Integrated environmental management tools"]
+  },
+  {
+    "id": 71,
+    "name": "Online Community for Remote Work Productivity",
+    "description": "Platform for connecting individuals interested in remote work productivity and lifestyle.",
+    "success_factors": ["Strong community engagement", "Focus on shared interests", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general social media"],
+    "market_gaps": ["Marketplace for productivity tools", "Virtual and in-person events for remote workers"]
+  },
+  {
+    "id": 72,
+    "name": "Sustainable Resource Management Platform",
+    "description": "Software for managing and optimizing eco-friendly and sustainable resource consumption.",
+    "success_factors": ["Reduced resource waste", "Improved resource efficiency", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional companies"],
+    "market_gaps": ["Corporate sustainable resource programs", "Community-based resource initiatives"]
+  },
+  {
+    "id": 73,
+    "name": "AI-Powered Fraud Detection for Fintech",
+    "description": "Software that uses AI to analyze fintech data and identify potential fraud and security threats.",
+    "success_factors": ["Improved security and fraud protection", "Data-driven risk insights", "Enhanced efficiency"],
+    "failure_patterns": ["Data privacy concerns", "Complexity of analysis", "Intense competition from established firms"],
+    "market_gaps": ["Niche fraud detection for specific fintech sectors", "Integrated fintech management tools"]
+  },
+  {
+    "id": 74,
+    "name": "Virtual Music Therapy Platform",
+    "description": "Platform for providing virtual music therapy sessions and resources for individuals of all ages.",
+    "success_factors": ["Improved accessibility and flexibility", "Strong community support", "Focus on music therapy"],
+    "failure_patterns": ["Technological barriers for some users", "Difficulty in managing specialized needs remotely", "Low engagement"],
+    "market_gaps": ["Specialized music therapy tracks for different needs", "Integrated therapist and patient management tools"]
+  },
+  {
+    "id": 75,
+    "name": "Sustainable Building Materials Marketplace",
+    "description": "Online platform for businesses to buy and sell eco-friendly and sustainable building materials.",
+    "success_factors": ["Growing demand for sustainable building", "Curated selection", "Improved supply chain transparency"],
+    "failure_patterns": ["High logistical costs", "Quality control issues", "Low margins"],
+    "market_gaps": ["Customized building material design services", "Integrated recycling and composting programs"]
+  },
+  {
+    "id": 76,
+    "name": "AI-Powered Personalized Nutrition",
+    "description": "App that uses AI to provide personalized nutrition advice and resources based on user goals and data.",
+    "success_factors": ["Improved nutrition outcomes", "Data-driven insights", "Enhanced accessibility"],
+    "failure_patterns": ["Data privacy concerns", "Difficulty in interpreting AI insights", "Intense competition from established firms"],
+    "market_gaps": ["Niche nutrition support for specific demographics", "Integrated nutritionist and patient management tools"]
+  },
+  {
+    "id": 77,
+    "name": "Virtual Language Exchange Community",
+    "description": "Platform for connecting individuals interested in language exchange and cultural learning.",
+    "success_factors": ["Strong community engagement", "Focus on shared interests", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general social media"],
+    "market_gaps": ["Marketplace for language learning materials", "Virtual and in-person events for language learners"]
+  },
+  {
+    "id": 78,
+    "name": "Sustainable Water Management Technology",
+    "description": "Software and hardware for managing and optimizing eco-friendly and sustainable water consumption.",
+    "success_factors": ["Reduced water waste", "Improved water efficiency", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional companies"],
+    "market_gaps": ["Corporate sustainable water programs", "Community-based water initiatives"]
+  },
+  {
+    "id": 79,
+    "name": "AI-Powered Customer Sentiment Analysis",
+    "description": "Tools for businesses to use AI to analyze customer sentiment from various sources and gain insights.",
+    "success_factors": ["Improved customer understanding", "Data-driven insights", "Faster response to customer needs"],
+    "failure_patterns": ["Data privacy concerns", "Technical integration challenges", "Difficulty in interpreting AI insights"],
+    "market_gaps": ["Industry-specific sentiment analysis templates", "Integrated CRM and helpdesk tools"]
+  },
+  {
+    "id": 80,
+    "name": "Virtual Art Education Platform",
+    "description": "Platform for providing virtual art lessons and interactive learning tools for students of all ages.",
+    "success_factors": ["Improved accessibility and flexibility", "Interactive learning experience", "Focus on practical skills"],
+    "failure_patterns": ["Content quality consistency", "Technological barriers for some students", "Difficulty in measuring learning outcomes"],
+    "market_gaps": ["Specialized art tracks for different styles", "Integrated student and teacher management tools"]
+  },
+  {
+    "id": 81,
+    "name": "Sustainable Fashion Rental Platform",
+    "description": "Online platform for renting eco-friendly and ethically made clothing.",
+    "success_factors": ["Reduced environmental impact", "Focus on sustainable practices", "Detailed impact reporting"],
+    "failure_patterns": ["Higher logistical costs", "Complexity of management", "Resistance from traditional retail models"],
+    "market_gaps": ["Corporate sustainable fashion programs", "Community-based fashion initiatives"]
+  },
+  {
+    "id": 82,
+    "name": "AI-Powered Personalized Career Coaching",
+    "description": "App that uses AI to provide personalized career coaching and resources based on user goals and data.",
+    "success_factors": ["Improved career outcomes", "Data-driven insights", "Enhanced accessibility"],
+    "failure_patterns": ["Data privacy concerns", "Difficulty in interpreting AI insights", "Intense competition from established firms"],
+    "market_gaps": ["Niche career coaching for specific industries", "Integrated coach and client management tools"]
+  },
+  {
+    "id": 83,
+    "name": "Virtual Wellness Community for Remote Workers",
+    "description": "Platform for providing virtual wellness classes and community support for remote workers.",
+    "success_factors": ["Improved remote employee wellness", "Strong community engagement", "Focus on remote work challenges"],
+    "failure_patterns": ["Low employee engagement", "Difficult to measure impact", "Competition from general wellness apps"],
+    "market_gaps": ["Specialized wellness programs for different remote employee segments", "Integrated employee and employer management tools"]
+  },
+  {
+    "id": 84,
+    "name": "Sustainable Land Use Planning Platform",
+    "description": "Software for planning and managing eco-friendly and sustainable land use projects.",
+    "success_factors": ["Reduced environmental impact", "Improved land resilience", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional land planners"],
+    "market_gaps": ["Corporate sustainable land programs", "Community-based land initiatives"]
+  },
+  {
+    "id": 85,
+    "name": "AI-Powered Personalized Financial Education",
+    "description": "App that uses AI to provide personalized financial education and resources based on user goals and data.",
+    "success_factors": ["Improved financial literacy", "Data-driven insights", "Enhanced accessibility"],
+    "failure_patterns": ["Data privacy concerns", "Difficulty in interpreting AI insights", "Intense competition from established firms"],
+    "market_gaps": ["Niche financial education for specific demographics", "Integrated educator and student management tools"]
+  },
+  {
+    "id": 86,
+    "name": "Virtual Hobbies Community for Seniors",
+    "description": "Platform for connecting seniors with similar hobbies and providing virtual resources.",
+    "success_factors": ["Improved senior engagement", "Strong community support", "Focus on senior interests"],
+    "failure_patterns": ["Technological barriers for some seniors", "Difficulty in managing specialized needs remotely", "Low engagement"],
+    "market_gaps": ["Specialized hobby tracks for different senior segments", "Integrated senior and instructor management tools"]
+  },
+  {
+    "id": 87,
+    "name": "Sustainable Energy Management Platform",
+    "description": "Software for managing and optimizing eco-friendly and sustainable energy consumption.",
+    "success_factors": ["Reduced energy waste", "Improved energy efficiency", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional companies"],
+    "market_gaps": ["Corporate sustainable energy programs", "Community-based energy initiatives"]
+  },
+  {
+    "id": 88,
+    "name": "AI-Powered Personalized Parenting Support",
+    "description": "App that uses AI to provide personalized parenting advice and resources based on user needs and data.",
+    "success_factors": ["Improved parenting outcomes", "Data-driven insights", "Enhanced accessibility"],
+    "failure_patterns": ["Data privacy concerns", "Difficulty in interpreting AI insights", "Intense competition from established firms"],
+    "market_gaps": ["Niche parenting support for specific demographics", "Integrated specialist and parent management tools"]
+  },
+  {
+    "id": 89,
+    "name": "Virtual Skills Exchange Community",
+    "description": "Platform for connecting individuals interested in skills exchange and peer-to-peer learning.",
+    "success_factors": ["Strong community engagement", "Focus on shared interests", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general social media"],
+    "market_gaps": ["Marketplace for skill-based materials", "Virtual and in-person events for skill learners"]
+  },
+  {
+    "id": 90,
+    "name": "Sustainable Waste Management Technology",
+    "description": "Software and hardware for managing and optimizing eco-friendly and sustainable waste disposal.",
+    "success_factors": ["Reduced waste impact", "Improved waste efficiency", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional companies"],
+    "market_gaps": ["Corporate sustainable waste programs", "Community-based waste initiatives"]
+  },
+  {
+    "id": 91,
+    "name": "AI-Powered Personalized Legal Advice",
+    "description": "App that uses AI to provide personalized legal advice and resources based on user needs and data.",
+    "success_factors": ["Improved legal accessibility", "Data-driven legal insights", "Enhanced efficiency"],
+    "failure_patterns": ["Legal and regulatory hurdles", "Data privacy concerns", "Intense competition from established law firms"],
+    "market_gaps": ["Niche legal support for specific demographics", "Integrated lawyer and client management tools"]
+  },
+  {
+    "id": 92,
+    "name": "Virtual Creative Community for Remote Workers",
+    "description": "Platform for connecting remote workers with creative interests and providing virtual resources.",
+    "success_factors": ["Improved remote employee engagement", "Strong community support", "Focus on creative expression"],
+    "failure_patterns": ["Low employee engagement", "Difficult to measure impact", "Competition from general social media"],
+    "market_gaps": ["Specialized creative programs for different remote employee segments", "Integrated creative and employer management tools"]
+  },
+  {
+    "id": 93,
+    "name": "Sustainable Infrastructure Planning Platform",
+    "description": "Software for planning and managing eco-friendly and sustainable infrastructure projects.",
+    "success_factors": ["Reduced environmental impact", "Improved infrastructure resilience", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional infrastructure planners"],
+    "market_gaps": ["Corporate sustainable infrastructure programs", "Community-based infrastructure initiatives"]
+  },
+  {
+    "id": 94,
+    "name": "AI-Powered Personalized Travel Planning",
+    "description": "App that uses AI to provide personalized travel advice and resources based on user preferences and data.",
+    "success_factors": ["Improved travel outcomes", "Data-driven travel insights", "Enhanced accessibility"],
+    "failure_patterns": ["Data privacy concerns", "Difficulty in interpreting AI insights", "Intense competition from established firms"],
+    "market_gaps": ["Niche travel support for specific demographics", "Integrated travel agent and traveler management tools"]
+  },
+  {
+    "id": 95,
+    "name": "Virtual Book Club Community",
+    "description": "Platform for connecting individuals interested in book clubs and providing virtual resources.",
+    "success_factors": ["Strong community engagement", "Focus on shared interests", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general social media"],
+    "market_gaps": ["Marketplace for book-related items", "Virtual and in-person events for book lovers"]
+  },
+  {
+    "id": 96,
+    "name": "Sustainable Supply Chain Management Technology",
+    "description": "Software and hardware for managing and optimizing eco-friendly and sustainable supply chains.",
+    "success_factors": ["Reduced environmental impact", "Improved supply chain efficiency", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional companies"],
+    "market_gaps": ["Corporate sustainable supply chain programs", "Community-based supply chain initiatives"]
+  },
+  {
+    "id": 97,
+    "name": "AI-Powered Personalized Career Path Analysis",
+    "description": "Tools for businesses to use AI to analyze employee data and predict potential career paths.",
+    "success_factors": ["Improved employee retention", "Data-driven career insights", "Enhanced decision-making"],
+    "failure_patterns": ["Data privacy concerns", "Technical integration challenges", "Difficulty in interpreting AI insights"],
+    "market_gaps": ["Industry-specific career path templates", "Integrated employee and employer management tools"]
+  },
+  {
+    "id": 98,
+    "name": "Virtual Community for Specialized Research",
+    "description": "Platform for connecting individuals interested in specialized research and providing virtual resources.",
+    "success_factors": ["Strong community engagement", "Focus on shared interests", "Unique content and experiences"],
+    "failure_patterns": ["Difficult to monetize", "Limited market size", "Competition from general research platforms"],
+    "market_gaps": ["Marketplace for research-related items", "Virtual and in-person events for researchers"]
+  },
+  {
+    "id": 99,
+    "name": "Sustainable Community Development Platform",
+    "description": "Software for planning and managing eco-friendly and sustainable community development projects.",
+    "success_factors": ["Reduced environmental impact", "Improved community resilience", "Detailed impact reporting"],
+    "failure_patterns": ["Complexity of management", "Higher costs for sustainable options", "Resistance from traditional community planners"],
+    "market_gaps": ["Corporate sustainable development programs", "Community-based community initiatives"]
+  },
+  {
+    "id": 100,
+    "name": "AI-Powered Personalized Language Tutoring",
+    "description": "App that uses AI to provide personalized language tutoring and resources based on user goals and data.",
+    "success_factors": ["Improved language outcomes", "Data-driven insights", "Enhanced accessibility"],
+    "failure_patterns": ["Data privacy concerns", "Difficulty in interpreting AI insights", "Intense competition from established firms"],
+    "market_gaps": ["Niche language tutoring for specific demographics", "Integrated tutor and student management tools"]
   }
 ]

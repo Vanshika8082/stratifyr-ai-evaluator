@@ -394,23 +394,22 @@ function App() {
             </div>
 
             {/* Similar Startups */}
-            <div className="card">
-              <div className="flex items-center gap-2 mb-6">
-                <Layers className="text-slate-400" size={20} />
-                <h3 className="text-xl font-semibold">Reference Data</h3>
+            {result.similar_startups && result.similar_startups.length > 0 && (
+              <div className="card">
+                <div className="flex items-center gap-2 mb-6">
+                  <Layers className="text-slate-400" size={20} />
+                  <h3 className="text-xl font-semibold">Reference Data</h3>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {result.similar_startups.map((startup, idx) => (
+                    <div key={idx} className="p-3 bg-slate-900/30 rounded-lg border border-borderLight/30">
+                      <h4 className="font-semibold text-slate-300 mb-1">{startup.name}</h4>
+                      <p className="text-xs text-textMuted">{startup.description}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {result.similar_startups.map((startup, idx) => (
-                  <div key={idx} className="p-3 bg-slate-900/30 rounded-lg border border-borderLight/30">
-                    <h4 className="font-semibold text-slate-300 mb-1">{startup.name}</h4>
-                    <p className="text-xs text-textMuted">{startup.description}</p>
-                  </div>
-                ))}
-                {result.similar_startups.length === 0 && (
-                  <p className="text-textMuted text-sm">No reference data found.</p>
-                )}
-              </div>
-            </div>
+            )}
 
           </div>
         )}
